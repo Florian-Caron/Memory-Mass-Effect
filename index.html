@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paires</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body onload="menu()">
+    <div>
+        <div class="informations">
+            <div class="info">Reste: <span class="paires">0</span></div>
+            <div class="info">Tentatives: <span class="tentatives">0</span></div>
+        </div>
+        <button onclick="menu()" class="menuBtn">Menu principal</button>
+        <!-- <div class="timer">
+             <span class="min">00</span>:<span class="sec">00</span>:<span class="ms">00</span>
+        </div>​ -->
+        <!-- <button onclick="jouer(bouton)" class="jouer">Rejouer</button> -->
+    </div>
+    <main>
+        <div>
+            <ul class="jeu"></ul>
+        </div>
+        <div class="menu">
+            <h3> Veuillez choisir la difficulté </h3>
+            <div class="choixDiff">
+                <button class="diff facile" data-value="facile" onclick="jouer(this)">Facile</button>
+                <button class="diff moyen" data-value="moyen" onclick="jouer(this)">Moyen</button>
+                <button class="diff difficile" data-value="difficile" onclick="jouer(this)">Difficile</button>
+            </div>
+        </div>
+
+        <div class="assombrir">
+            <div class="resultats">
+                <h3>Partie terminée</h3>
+                <div class="infoResultat">
+                    <p>Paires trouvées:</p> <span class="trouvees"></span>
+                    <p>Tentatives totale:</p> <span class="tentatives"></span>
+                    <p>Combo max:</p> <span class="comboMax"></span>
+                    <div>
+                        <h4>Score</h4>
+                        <span class="score"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="infoCombo"><span class="combo"></span></div>
+</body>
+</html>
