@@ -4,4 +4,4 @@
 # Features
 - Thème Mass Effect
 - Score total, combo, tentatives et paires restantes
-- Sons et parole des personnages du jeu
+- Sons et paroles des personnages du jeu
