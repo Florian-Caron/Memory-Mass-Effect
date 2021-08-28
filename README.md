@@ -1,6 +1,6 @@
 # Memory Mass Effect
  Jeu de mémoire dans le thème de l'univers Mass Effect développé à l'aide de JavaScript ainsi que de la librairie jQuery lors de ma formation à l'AFPA.
- (Il était pas demandé de faire les features cités ci-dessous, je les ai rajoutées parce que ça me plaisait)
+ (Il était pas demandé de faire les features citées ci-dessous, je les ai rajoutées parce que ça me plaisait)
  
 # Features
 - Thème Mass Effect
